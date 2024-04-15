@@ -1,0 +1,86 @@
+li {
+    list-style: none;
+}
+
+/* Book An Appointment Start */
+.book-appoint {
+    margin: 37px 10px;
+}
+
+#form h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#form p {
+    display: flex;
+    justify-content: center;
+    padding: 0 19%;
+    font-size: 15px;
+}
+
+#form {
+    margin: 0 20%;
+    padding: 43px 0;
+    box-shadow: 2px 2px 20px #8f8484;
+}
+
+.form-list {
+    padding: 20px 61px;
+}
+
+.form-list input {
+    border: unset;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.f-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.f-list i {
+    font-size: 27px;
+}
+
+.f-list label {
+    display: block;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    /* padding-left: 25px; */
+    left: 30px;
+}
+
+.form-list .submit-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.btn {
+    background: #2E81AC;
+    color: #fff;
+    border-radius: 4px;
+    padding: 7px 35px;
+
+}
+
+.btn:hover {
+    background: #2E81AC;
+    color: #fff;
+}
+
+.arrow-img {
+    padding: 8px 10px;
+    background: #FF543E;
+    position: relative;
+    left: 35px;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Book An Appointment End */
